@@ -1,3 +1,4 @@
+print("Hello Ribbined!")
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local isR6 = character:FindFirstChild("Torso") ~= nil
@@ -24,7 +25,7 @@ local function showNotification(message)
     textLabel.Size = UDim2.new(1, -20, 1, 0)
     textLabel.Position = UDim2.new(0, 10, 0, 0)
     textLabel.BackgroundTransparency = 1
-    textLabel.Text = message .. " | by pyst"
+    textLabel.Text = message .. " | 💠By Crypted"
     textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
     textLabel.Font = Enum.Font.SourceSansBold
     textLabel.TextSize = 18
@@ -69,8 +70,7 @@ end
 if isR6 then
     showNotification("🌟 R6 detected!")
 else
-    showNotification("✨ R15 detected!")
-    showNotification("💠By Crypted!")
+     showNotification("✨ R15 detected!")
 end
 
 -- Create Screen GUI
@@ -163,11 +163,11 @@ layout.Parent = scrollingFrame
 
 -- Buttons Data
 local buttons = {
-    {name = "🎯 Bang V2", r6 = "https://pastebin.com/raw/aPSHMV6K", r15 = "https://pastebin.com/raw/1ePMTt9n"},
-    {name = "🎉 Get Banged", r6 = "https://pastebin.com/raw/zHbw7ND1", r15 = "https://pastebin.com/raw/7hvcjDnW"},
-    {name = "💥 Suck", r6 = "https://pastebin.com/raw/SymCfnAW", r15 = "https://pastebin.com/raw/p8yxRfr4"},
-    {name = "🔥 Get Suc", r6 = "https://pastebin.com/raw/FPu4e2Qh", r15 = "https://pastebin.com/raw/DyPP2tAF"},
-    {name = "⚡ Jerk", r6 = "https://pastefy.app/wa3v2Vgm/raw", r15 = "https://pastefy.app/YZoglOyJ/raw"}
+    {name = "🍆🍑 Bang V2", r6 = "https://pastebin.com/raw/aPSHMV6K", r15 = "https://pastebin.com/raw/1ePMTt9n"},
+    {name = "🍆🍑 Get Banged", r6 = "https://pastebin.com/raw/zHbw7ND1", r15 = "https://pastebin.com/raw/7hvcjDnW"},
+    {name = "🍆👄 Suck", r6 = "https://pastebin.com/raw/SymCfnAW", r15 = "https://pastebin.com/raw/p8yxRfr4"},
+    {name = "👄 Get Suc", r6 = "https://pastebin.com/raw/FPu4e2Qh", r15 = "https://pastebin.com/raw/DyPP2tAF"},
+    {name = "🍆 Jerk", r6 = "https://pastefy.app/wa3v2Vgm/raw", r15 = "https://pastefy.app/YZoglOyJ/raw"}
 }
 
 for _, buttonData in ipairs(buttons) do
